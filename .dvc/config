@@ -1,4 +1,7 @@
 [core]
-    remote = storage
+    remote = origin
+    autostage = true
 ['remote "storage"']
-    url = gdrive://19vw9Misiewj3nG5CxXfGMuzW-cnSgyvH
+    url = gdrive://19vw9Misiewj3nG5CxXfGMuzW-cnSgyvH/dvcstore
+['remote "origin"']
+    url = https://dagshub.com/Utkarsh736/dvc-pipeline.dvc
